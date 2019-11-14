@@ -19,7 +19,7 @@ variables:
 steps:
 - task: DotNetCoreInstall@0
   displayName: 'Use .NET Core SDK $(dotnetSdkVersion)'
-  inpus:
+  inputs:
     version: '$(dotnetSdkVersion)'
 
 - task: Npm@1
